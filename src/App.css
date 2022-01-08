@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+.App{
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  font-family: "Pushster", cursive;
+}
+
+.heading{
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 30px 0;
+  color: rgb(0, 236, 91);
+  z-index: 1;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .heading{
+    margin: 15px 0;
+    font-size: 35px;
+  }
+}
