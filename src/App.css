@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
-.App{
+@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
+.App {
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +9,7 @@
   font-family: "Pushster", cursive;
 }
 
-.heading{
+.heading {
   text-transform: uppercase;
   font-size: 40px;
   margin: 30px 0;
@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 800px) {
-  .heading{
+  .heading {
     margin: 15px 0;
     font-size: 35px;
   }
